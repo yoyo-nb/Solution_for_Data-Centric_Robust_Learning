@@ -1,0 +1,6 @@
+*.npy
+*.tar
+*.pth
+data/*
+*.gz
+*.pyc
