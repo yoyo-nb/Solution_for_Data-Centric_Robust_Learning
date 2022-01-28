@@ -2,11 +2,11 @@ import numpy as np
 import random
 
 img1 = np.load('data_1.npy')
-img2 = np.load('naive/data_naive_2.npy')
+img2 = np.load('naive/data_naive.npy')
 img3 = np.load('AdvDrop-main/advdrop_train_wideresnet.npy')
 img4 = np.load('AdvDrop-main/advdrop_train_preactresnet18.npy')
 img5 = np.load('DeepFool/Python/deepfool_train_wideresnet.npy')
-img6 =  np.load('DeepFool/Python/deepfool_train_preactresnet18.npy')
+img6 = np.load('DeepFool/Python/deepfool_train_preactresnet18.npy')
 img7 = np.load('pgd/pdg_train_wideresnet.npy')  
 img8 = np.load('pgd/pdg_train_preactresnet18.npy')
 img9 = np.load('aa/aa_train_preactresnet18.npy')

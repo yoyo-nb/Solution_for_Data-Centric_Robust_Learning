@@ -53,7 +53,7 @@ python naive.py
 The data will be saved in `data_naive.npy` and `label_naive.npy`
 
 ### 3.2 AdvDrop for `data_3.npy` and `data_4.npy`
-- Change codes at lines 26-29 in 'AdvDrop-main/infod_sample.py'
+- Change codes at lines 27-30 in 'AdvDrop-main/infod_sample.py'
     ```
     data_npy = '../data_3.npy'
     label_npy = '../label_3.npy'
@@ -64,7 +64,7 @@ The data will be saved in `data_naive.npy` and `label_naive.npy`
     cd AdvDrop-main
     python infod_sample.py
     ```
-- Change codes at lines 26-29 in 'AdvDrop-main/infod_sample.py'
+- Change codes at lines 27-30 in 'AdvDrop-main/infod_sample.py'
     ```
     data_npy = '../data_4.npy'
     label_npy = '../label_4.npy'
@@ -76,7 +76,7 @@ The data will be saved in `data_naive.npy` and `label_naive.npy`
     python infod_sample.py
     ```
 ### 3.3 DeepFool for `data_5.npy` and `data_6.npy`
-- Change codes at lines 22-25 in 'DeepFool/Python/test_deepfool.py'
+- Change codes at lines 24-27 in 'DeepFool/Python/test_deepfool.py'
     ```
     data_npy = '../../data_5.npy'
     label_npy = '../../label_5.npy'
@@ -87,7 +87,7 @@ The data will be saved in `data_naive.npy` and `label_naive.npy`
     cd DeepFool/Python
     python test_deepfool.py
     ```
-- Change codes at lines 22-25 in 'DeepFool/Python/test_deepfool.py'
+- Change codes at lines 24-27 in 'DeepFool/Python/test_deepfool.py'
     ```
     data_npy = '../../data_6.npy'
     label_npy = '../../label_6.npy'
@@ -99,7 +99,7 @@ The data will be saved in `data_naive.npy` and `label_naive.npy`
     python test_deepfool.py
     ```
 ### 3.4 PGD for `data_7.npy` and `data_8.npy`
-- Change codes at lines 22-25 in 'pgd/pgd.py'
+- Change codes at lines 24-27 in 'pgd/pgd.py'
     ```
     data_npy = '../data_7.npy'
     label_npy = '../label_7.npy'
@@ -110,7 +110,7 @@ The data will be saved in `data_naive.npy` and `label_naive.npy`
     cd pgd
     python pgd.py
     ```
-- Change codes at lines 22-25 in 'pgd/pgd.py'
+- Change codes at lines 24-27 in 'pgd/pgd.py'
     ```
     data_npy = '../data_8.npy'
     label_npy = '../label_8.npy'
@@ -123,7 +123,7 @@ The data will be saved in `data_naive.npy` and `label_naive.npy`
     ```
 
 ### 3.5 AutoAttack for `data_9.npy` and `data_10.npy`
-- Change codes at lines 22-25 in 'aa/aa.py'
+- Change codes at lines 24-27 in 'aa/aa.py'
     ```
     data_npy = '../data_10.npy'
     label_npy = '../label_10.npy'
@@ -134,7 +134,7 @@ The data will be saved in `data_naive.npy` and `label_naive.npy`
     cd aa
     python aa.py
     ```
-- Change codes at lines 22-25 in 'aa/aa.py'
+- Change codes at lines 24-27 in 'aa/aa.py'
     ```
     data_npy = '../data_9.npy'
     label_npy = '../label_9.npy'

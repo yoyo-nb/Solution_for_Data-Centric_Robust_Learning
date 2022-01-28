@@ -8,8 +8,7 @@ import io
 import torch 
 import torch.nn as nn 
 import torch.nn.functional as F
-import torch.optim as optim 
-# from torchvision import models  
+import torch.optim as optim  
 import torchvision.datasets as dsets 
 import torchvision.transforms as transforms  
 from  torchattacks.attack import Attack  
@@ -18,6 +17,8 @@ from compression import *
 from decompression import *
 from PIL import ImageFile
 ImageFile.LOAD_TRUNCATED_IMAGES = True
+import sys
+sys.path.append("..")
 from models import *
 import random
 import cv2

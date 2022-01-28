@@ -10,6 +10,8 @@ import torchvision.utils
 from torchvision import models
 import torchvision.datasets as dsets
 import torchvision.transforms as transforms
+import sys
+sys.path.append("..")
 from models import *
 import os
 import cv2

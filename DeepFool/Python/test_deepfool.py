@@ -13,6 +13,8 @@ import torchvision.models as models
 from PIL import Image
 from deepfool import deepfool
 import os
+import sys
+sys.path.append("../..")
 from models import *
 import cv2
 
